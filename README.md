@@ -1,5 +1,5 @@
 # BraCoChi
-## THE IMPACT OF ELIZABETH LINE INTHE RENTAL HOUSING MARKET
+## THE IMPACT OF ELIZABETH LINE IN THE RENTAL HOUSING MARKET
 ### Data+PolicyBriefing
 
 This policy briefing aims to understand the Elizabeth Line’s impact on
