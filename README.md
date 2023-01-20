@@ -12,7 +12,7 @@ This project is part of an Assignment of [Foundations of Spatial Data Science (F
 
 BraCoChi Group
 
-@rpoandres
-@brfelipealmeida
-@Derp015
-@ucfnlih
+[@rpoandres](https://github.com/rpoandres)
+[@brfelipealmeida](https://github.com/brfelipealmeida)
+[@Derp015](https://github.com/Derp015)
+[@ucfnlih](https://github.com/ucfnlih)
