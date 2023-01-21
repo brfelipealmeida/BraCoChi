@@ -17,4 +17,4 @@ This project is part of an Assignment of [Foundations of Spatial Data Science (F
 [@Derp015](https://github.com/Derp015)
 [@ucfnlih](https://github.com/ucfnlih)
 
-<img src="readme_images/casalogo1_4-removebg-preview" width="100" > <img src="readme_images/bracochi2-removebg-preview" width="100" >
+<img src="readme_images/casalogo1_4-removebg-preview" width="100" >  <img src="readme_images/bracochi2-removebg-preview" width="100" >
