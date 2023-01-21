@@ -1,0 +1,123 @@
+---
+bibliography: bio.bib
+csl: harvard-cite-them-right.csl
+title: THE IMPACT OF ELIZABETH LINE IN THE RENTAL HOUSING MARKET
+format: 
+  pdf:
+    include-in-header:
+      text: |
+        \addtokomafont{disposition}{\rmfamily}
+    #documentclass: report
+    # If using Quarto in Docker, available fonts are: `fc-list : family | sort | uniq`
+    # If using Quarto on local machine then you can usually pick them from the list of installed fonts
+    mainfont: "Spectral" # https://fonts.google.com/specimen/Spectral
+    sansfont: "Roboto"   # https://fonts.google.com/specimen/Roboto?category=Sans+Serif
+    monofont: "Inconsolata" # https://fonts.google.com/specimen/Inconsolata
+    papersize: a4
+    geometry:
+      - top=25mm
+      - left=40mm
+      - right=30mm
+      - bottom=25mm
+      - heightrounded
+    toc: True
+    toc-depth: 1
+    number-sections: true
+    colorlinks: true
+    highlight-style: github
+---
+
+{{< pagebreak >}}
+
+# Policy Briefing Title that Matches PDF Title
+
+## CASA0013: Foundations of Spatial Data Science
+
+### Student Ids: ucfnant, ucfnlih, ucfnres, ucfnibj
+
+
+# Introduction
+
+London is a complex and unequal city with a high cost of rental and housing market and always accompanied by uneven distribution. As one of the most popular short-term rental platforms in the new era, Airbnb is seen as easily influencing and threatening the rental market in London and causing problems such as gentrification and rent gap [@shabrina_airbnb_2022]. Some boroughs are concerned that the popularity of short-term rental market will affect the living conditions of permanent residents and increase the price of long-term rentals [@jackgraves_one_2020]. In response, the London government has proposed a 90-day rental limit for the short-term market [@govuk_deregulation_2015]. 
+
+The opening of the Elizabeth Line on 24 May 2022 could have a new impact on the London rental market. As an urban-suburban rail service running all over London to the zone 9, the Elizabeth Line has a higher speed and carry 600,000 journeys each day [@tfl_businesses_2022]. 
+
+It has been significant for a generation with its 'Crossrail Effect' of boosting London's economy and greatly enhancing accessibility, particularly for the less well-connected Southeast [@reeves_millions_2022]. Crossrail is the responsible company for the implementation of the Elizabeth line. Moreover, the Elizabeth line project also includes property development and population attraction around the stations [@tfl_property_2018]. 
+
+Therefore, this policy briefing aims to understand the Elizabeth Line’s impact on rental housing market in London, which presents a contrastive analysis of rental market before and after the opening of Elizabeth Line (year 2020 and 2022). The policy briefing begins with an overall analysis of price increasing rate of long-term and short-term rental (Airbnb) markets by boroughs, and then focus on short-term rental market (Airbnb) to analyse the changes near the site and between zones.  
+
+
+# Key Findings
+
+- Between 2020 and 2022, the short-term rental price (Airbnb) grew by 26.6%, and the long-term rental price only increased by 4.1%.   
+
+- In the 14 boroughs through which the Elizabeth line passes, there are 11 boroughs with significant price increases in the short-term rental market but only 5 in the long-term rental market.  
+
+- The opening of the Elizabeth Line brings vitality to the rental market in less well-connected southeast London, with a significantly increasing rental price.  
+
+- An analysis of advertised descriptions of Airbnb listings revealed that in 2020, only 14 hosts used the Elizabeth line in their house descriptions. However, by 2022, that number had increased to 270, representing an increased rate of 94.8%.  
+
+- The median price of Airbnb listings within a 1 km radius of the underground stations between 2020 and 2022 increased a 41.41%. Similarly, at 1-2 km and 2 km radius, the median price increased by 25.61% and 33.33%, respectively.  
+
+- The stations with the highest percentage increase at a 1 km radius are Hanwell, Goodmayes, Southall, Hayes & Harlington and Heathrow Central.  
+
+- The top three fare zones in London with the highest growth in median prices were Zone 5, Zone 1, and Zone 6, with increasing rates of 35%, 32%, and 31%, respectively. 
+
+
+# Rental Housing Market
+
+Between 2020 and 2022 before and after the opening of the Elizabeth Line, there are marked changes in London rental market, with different extent for long-term market and short-term market. In general, the short-term rental price grew by 26.6%, which is an outrageous data that exceeds the increase in long-term rental prices over all periods [@ons_index_2022]. The long-term rental market, on the other hand, appears to be more normal in terms of price fluctuations, with an increase of 4.1% over the two-year period. 
+
+In the 14 boroughs through which the Elizabeth line passes, 11 boroughs see price increases in excess of the general in short-term rental market, but there are only 5 in long-term rental market, which may indicate that the Elizabeth line had a more significant impact on short-term rental market than long-term. More specifically, the further away from the centre the darker the purple colour of borough shows in the left of figure 1 suggests that the convenience brought by the Elizabeth Line has contributed to the development of the short-term rental market.  
+
+What’s more, taking a look at both long-term and short-term rental markets, we could see that there are four boroughs where increasing rate exceed general in both, which are “Newham”, “Havering”, “Barking and Dagenham” and “Camden”, and three of them are located to the south-eastern London. This finding shows that the Elizabeth Line has strengthened the links between south-east and central London and has given the south-east a vibrant rental market.  
+
+![The rental price (median) increasing rate in short-term market and long-term market](figure1.png){width=500}
+
+::: {.callout-note}
+1. The global price increasing rate for short-term and long-term rental market are 26.6% and 4.1% respectively (shown on the legends) 
+
+2. Shades of colour represent degrees
+:::
+
+
+# The Impact On Short-Term Rental Market: Station And Zone Approach
+
+As a measure of the impact generated by the presence of the Elizabeth line, this research aims to examine conditions related to the short-term rental market before and after the start of operations of the mentioned underground line. 
+
+The impact of the new Elizabeth line should be reflected more intensely on the communities located more closely to stations where is possible to access this new line. As it is stated by the first law of geography [@tobler_computer_1970], the nearest locations to the stations of the new line may experience a greater effect compared to the locations further away from the stations. 
+
+An exploratory data analysis was conducted to determine the extent to which Airbnb hosts in London have taken advantage of the Elizabeth line, a new underground railway that formally opened in 2022 [@tfl_businesses_2022]. The analysis focused on advertised descriptions of Airbnb listings between 2020 and 2022. The results revealed that hosts have indeed started to advertise their listings as being near the Elizabeth line. In 2020, only 14 hosts used the Elizabeth line in their house descriptions, but by 2022, that number had increased to 270, representing an increase rate of 94.8%. 
+
+As initial area of study, the short-term rental conditions would be examined in a radius up to 2 kilometres from each Elizabeth line stations, before and after this line started to operate. The assessment of the conditions of the short-term rental market would be based on the examination of the price per night and the number of listings registered in each station. These variables would be examined in the area of study defined by analysing Airbnb listings information from August 2020 and September 2022 [@inside_airbnb_london-inside_2022]. 
+
+Overall, the median price per night of Airbnb listings at a 1 km radius from the Elizabeth line stations increased from £99 to £140 between 2020 and 2022, which represents a variation of 41.41%. Similarly, at 1-2 km and 2 km radius the median price increased from 82 to 103 and from 90 to 120, which mean a 25.61% and 33.33% increase, respectively. 
+
+After calculating the median price per night at a 1 km radius from each station (Figure 2), the top 5 stations with the greater increase between 2020 and 2022 are located in zone 4, 5 and 6 of London. The top 3 stations are mono connection line stations, which means that the Elizabeth line is the only line available in those stations, in contrast to the multiple connection line stations, which have more than one line available or are connected to other transport services1. The top 5 stations are: 1. Hanwell: 102.4% (Zone 4, monoline), 2. Goodmayes: 91.4% (Zone 4, monoline), 3. Southall: 90.5% (Zone 4, monoline), 4. Hayes & Harlington: 73.3% (Zone 5, multiline) and 5. Heathrow Central: 71.2% (Zone 6, multiline). 
+
+![The median price variations between 2020 to 2022 by station](figure2.png){width=350}
+
+As there were locations that did not have direct access to the underground before the building of the Elizabeth line, they experienced a relatively greater increase in accessibility to the public transport network, which is reflected in the biggest price increases in the Airbnb listings around the stations.  
+
+To further investigate the impact of the Elizabeth line on housing prices, another analysis was conducted based on London's fare zones. The London transport system divides the city into different zones, each with a different fare. To compensate for the limitations of radius analysis, the short-term housing prices (Airbnb listing prices) around the Elizabeth line stations were examined in relation to fare zones.  
+
+The zone fare data from MyLondon (London datastore) was spatially matched with the Airbnb listings by their locations. The median was used to calculate the average house prices, and the price variation between 2020 and 2022 was presented in Figure 3. Figure 3 was sorted by the amount of variation. Zone 5 had the largest variation, which indicates that the median short-term house prices increased significantly in Zone 5 where the Elizabeth line crossed. 
+
+![The median price variations between 2020 to 2022 by fare zones](figure3.png){width=500}
+
+This analysis suggests that the Elizabeth line could significantly impact short-term housing prices in London. The study of fare zones indicates that the median short-term house prices have increased significantly in areas where the Elizabeth line crosses, particularly in Zone 5. 
+
+
+# Conclusion
+
+The biggest variations in price from Airbnb listings between 2020 and 2022, in terms of the stations and the fare zone, have been registered as non-centric monoline stations and non-centric fare zone, respectively. Moreover, the spatial and local identification of the largest positive variations in Airbnb listings should be a valuable element for the local authority to design and implement targeted areas with a consolidated demand for the short term. Therefore, it is important to consider that this trend might result in an increase in the rent gap hence in later gentrification as portrayed by [@wachsmuth_airbnb_2018].  
+
+The results presented here follow a post-intervention nature. However, by understanding the effect on communities with a relatively rapid increase of accessibility, the local authorities can start assessing the short- and long-term rental conditions as an element of consideration in the infrastructure expansion planning process, which is a more inclusive planning approach as described by [@kanarinka_data_2020].  Besides, it is crucial to support the hotel market in these areas with joined strategies between the public and private sectors, as hotels are competitors in short-term rentals. The local authorities design strategies to offer competitive prices and empower the local market to receive new customers close to the stations.   
+
+The housing market has already started opening additional sites close to Elizabeth line stations to meet the new housing demand [@tfl_businesses_2022]. In order to ensure enough affordable housing, the local authorities should do local community-based property monitoring (90-day rule and other related monitor regulations) to mitigate possible gentrification, especially in the stations with a high increase in prices and the number of listings in Zone 4 and 5. 
+
+Furthermore, this policy briefing is closely related to the "Evaluation" section of the document "Elizabeth line: evidencing the value - Benefits framework" [@tfl_elizabeth_2022] by the Mayor of London, Transport of London, Department of Transport. The main goal is to measure the positive and negative impact of the Elizabeth Line split in two studies (2022-2024 and 2024 to 2027). Thus, these results contribute to the Second post-opening study (2024-2027), especially in the section on Residential and commercial property prices. Consequently, as further analysis, it would be important to expand the datasets from other companies such as Booking, Zoopla, and Spareroom. 
+
+{{< pagebreak >}}
+
+# Reference
